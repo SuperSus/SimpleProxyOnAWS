@@ -1,0 +1,8 @@
+access_key     = "AWS_ACCESS_KEY"
+secret_key     = "AWS_SECRET_KEY"
+region         = "eu-west-2"
+ami_id         = "ami-0a6006bac3b9bb8d3"
+proxy_login    = "USER_NAME"
+proxy_password = "PASSWORD"
+proxies_count  = 1
+# key_name       = "ssh_key_name" # optional if you need access to proxy instances
