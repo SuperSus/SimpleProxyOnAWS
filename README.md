@@ -1,14 +1,12 @@
 ## SIMPLE PROXY AWS SERVER
 
 #### Instalation:
-- init terraform
-```bash
-terraform init
-```
 
-fill in terraform.tfvars with real data
+### USAGE
 ```bash
-cp terraform.tfvars.example terraform.tfvars
+make init
+make apply
+make destroy
 ```
 
 ### CONFIGURE EC2
@@ -25,13 +23,4 @@ git clone https://github.com/SuperSus/SimpleProxyOnAWS.git
 
 cd SimpleProxyOnAWS
 cp terraform.tfvars.example terraform.tfvars
-```
-
-### USAGE
-```bash
-cd SimpleProxyOnAWS
-
-make init
-make apply
-make destroy
 ```
